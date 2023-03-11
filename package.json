@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js --exec babel-node",
-    "build": "babel src -d proyect && ncp src/views proyect/views && ncp src/frontend proyect/frontend"
+    "build": "babel src -d proyect && ncp src/views proyect/views && ncp src/frontend proyect/frontend",
+    "start": "node proyect/index.js"
   },
   "keywords": [],
   "author": "",
