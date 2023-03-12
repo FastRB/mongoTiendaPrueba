@@ -32,5 +32,6 @@ app.use(_indexRoutes["default"]);
 
 //archivos estaticos
 app.use(_express["default"]["static"](_path["default"].join(__dirname, "public")));
+app.use(_express["default"]["static"](_path["default"].join(__dirname, "/")));
 var _default = app; //exporto el objeto app
 exports["default"] = _default;
