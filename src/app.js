@@ -25,6 +25,6 @@ app.use(express.urlencoded({ extended: false}));
 app.use(indexRoutes);
 
 //archivos estaticos
-app.use(express.static(path.join(__dirname, "/")));
+app.use(express.static(path.join(__dirname, "public")));
 
 export default app; //exporto el objeto app
