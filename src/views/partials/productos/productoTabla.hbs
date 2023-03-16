@@ -1,5 +1,5 @@
 {{#if productos}}
-  <table class="table table-bordered table-hover table-dark">
+  <table class="table table-bordered border-secondary table-hover table-dark">
     <thead class="text-center">
       <tr>
         <th>Num.</th>
@@ -23,16 +23,16 @@
             {{else}}
               <a
                 href="/productos/{{_id}}/status"
-                class="btn btn-success"
+                class="btn btn-primary"
               >Disponible</a>
             {{/if}}
             <a
               href="/productos/{{_id}}/update"
-              class="btn btn-info"
+              class="btn btn-outline-secondary"
             >Actualizar</a>
             <a
               href="/productos/{{_id}}/delete"
-              class="btn btn-danger"
+              class="btn btn-outline-danger"
             >Eliminar</a>
           </td>
         </tr>
